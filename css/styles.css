@@ -1,0 +1,62 @@
+body {
+    background-image: url(../img/starwars.gif);
+    background-size: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+.dicegame {
+    background-image: url(../img/dice.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    color: #ff7474;
+    font-size: 50px;
+}
+
+.formation-player1 {
+    background-color: #626364;
+}
+
+#display-die-player1 {
+    /*die1*/
+    color: #64fc36;
+}
+
+#display-dice-player1 {
+    /*dice1*/
+    margin-top: 50px;
+}
+
+.die-player1 {
+    padding-top: 50px;
+    color: #ffc04d;
+}
+
+.button-roll-player1 {
+    margin-top: 70px;
+}
+
+#display-die-player2 {
+    /*die2*/
+    color: #7aff52;
+}
+
+.die-player2 {
+    padding-top: 50px;
+    color: #ffc04d;
+}
+
+.button-roll-player2 {
+    margin-top: 70px;
+}
+
+.button-roll-player1 {
+    color: #fc6a6a;
+}
+
+.button-roll-player2 {
+    color: #fc6a6a;
+}
