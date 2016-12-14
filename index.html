@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>my portfolio about</title>
+    <title>pig dice</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" ,initial-scale=0.1>
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,22 +18,31 @@
         <div class="row dicegame">
             <p class="heading text-center">PIG DICE</p>
             <div class="col-md-6 col-sm-6">
-                <div class="formation-player1 text-center">
+                <div class="formation-player2 text-center">
                     <h1>player1[points]</h1>
                     <h3 id="display-dice-player1"></h3>
                     <h1 class="die-player1">die</h1>
                     <h3 id="display-die-player1"></h3>
                     <button class="button-roll-player1">ROLL</button>
+                    <button class="button-hold-player1">HOLD</button>
                 </div>
             </div>
             <div class="col-md-6 col-sm-6 ">
-                <div class="formation-player1 text-center">
+                <div class="formation-player2 text-center">
                     <h1>player2[points]</h1>
                     <h3 id="display-dice-player2"></h3>
                     <h1 class="die-player2">die</h1>
                     <h3 id="display-die-player2"></h3>
                     <button class="button-roll-player2">ROLL</button>
+                    <button class="button-hold-player2">HOLD</button>
                 </div>
+            </div>
+        </div>
+        <div class="row">
+            <button class="button-score-players">SCORES</button>
+            <div class="container winner">
+                <div class="col-md-6 col-sm-6 display-result1"></div>
+                <div class="col-md-6 col-sm-6 display-result1"></div>
             </div>
         </div>
     </div>
