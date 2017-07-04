@@ -9,5 +9,9 @@ $git clone https://github.com/kashkama/web-template.git
 
 clone the repo and start working.
 
+#### Features
+* _bootstrap_ uses bootstrap **v3.** framework.
+* _jquery_ has jquery **v3.1.1** files.
+
 #### Advantage
-* Helps with _development and production environment_ when using **npm**, **yarn**, **webpack** and **gulp**.
+* Helps with _development and production environment_ when using **npm**, **yarn**, **webpack**, **bower** and **gulp**.
